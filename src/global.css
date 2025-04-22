@@ -1,4 +1,30 @@
+:root{
+    --white: #ffffff;
+    --grey-100: #e1e1e6;
+    --grey-300: #c4c4cc;
+    --grey-400: #8d8d99;
+    --grey-600: #323238;
+    --grey-700: #29292e;
+    --grey-800: #202024;
+    --grey-900: #121214;
+
+    --green-100: #00875f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: #121224;
-    color: white;
+    background-color: var(--grey-900);
+    color: var(--grey-300);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
