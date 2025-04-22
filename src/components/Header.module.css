@@ -1,4 +1,12 @@
 .header{
-    height: 80px;
-    background-color: #333;
+    padding: 1.25rem 0; /*1rem/4 = 0.25rem = 4px. 1.25rem = 20px.*/
+    background-color: var(--grey-800);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img{
+    height: 2rem; /*32px*/
+    margin-right: 10px;
 }
